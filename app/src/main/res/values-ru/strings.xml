@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- TEXTO QUE NOMEIA O APLICATIVO -->
+    <string name="app_name">Azul obucheniye</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TEXTO QUE FICA NO MENU DE 3 PONTOS -->
+    <string name="about">Pomoshch\'</string>
+
+    <!-- TEXTO QUE FICA LOGO ABAIXO NA IMAGEM DA AZUL AO CLICAR NO MENU -->
+    <string name="navigation_header_cursos_name">Kontrol\' obucheniya</string>
+
+    <!-- A PARTIR DAQUI COMEÇAM OS TEXTOS ESCRITOS NO MENU PROPRIAMENTE DITO -->
+    <string name="navigation_menu_cursos">Kursy</string>
+    <string name="navigation_menu_cursos_andamento">Kursy V Khode</string>
+    <string name="navigation_menu_cursos_concluido">Kursy Zavershennyy</string>
+    <string name="navigation_menu_cursos_espera">Kursy Ozhidaniya</string>
+    <string name="navigation_menu_languages">Yazyk</string>
+    <string name="navigation_menu_perfil">Profil\'</string>
+    <string name="navigation_menu_logout">Otpusk</string>
+
+    <!-- A PARTIR DAQUI COMEÇAM AS STRINGS DA TELA DE LOGIN -->
+    <string name="login_plainText_usuario">Pol\'zovatel\'</string>
+    <string name="login_passwordText_senha">parol\'</string>
+    <string name="login_button_login">vkhodit\'</string>
+    <string name="login_plainText_help">Po voprosam obrashchat\'sya: controle.treinamento@azul.com.br</string>
+
+    <!-- A PARTIR DAQUI COMEÇAM AS STRINGS DA TELA DE Perfil -->
+    <string name="perfil_sucess">Modifitsirovannyy uspekha</string>
+    <string name="perfil_errornull">Polya ne dolzhny byt\' pustymi</string>
+    <string name="perfil_erroremail">Pole dolzhno byt\' zapolneno kompanii Email</string>
+    <string name="perfil_errorsenha">Polya parolya dolzhny byt\' ravny</string>
+    <string name="perfil_button">Obnovleniye</string>
+    <string name="perfil_email">E-mail</string>
+    <string name="perfil_senha">Parol\'</string>
+    <string name="perfil_senhaconfirma">Podtverdit\'</string>
+    <string name="perfil_Registro">Zapis\'</string>
+    <string name="perfil_cargo">Ofis</string>
+    <string name="perfil_usuario">pol\'zovatel\'</string>
+    <string name="perfil_nome">Sotrudnik Profilya</string>
+
+    <!-- TELA DE SOBRE -->
+    <string name="hello_blank_fragment">Chto takoye prilozheniye?</string>
+    <string name="hello_blank_fragment2">Prednaznachen dlya upravleniya kontrolya obuchayushchego personala kompanii Golubykh Airlines, kotoryye rabotayut vypolneniye tekhnicheskogo obsluzhivaniya vozdushnykh sudov</string>
+    <string name="hello_blank_fragment3">Pomoshch\'</string>
+    <string name="hello_blank_fragment4">Nizhe vy naydete informatsiyu o rabote prilozheniya.</string>
+    <string name="hello_blank_fragment5">Yesli vy ne nashli to, chto nuzhno, pozhaluysta, svyazhites\' s nami:</string>
+    <string name="hello_blank_fragment6">Telefon: (19)3320-1234</string>
+    <string name="hello_blank_fragment7">E-mail: controle.treinamento@azul.com.br</string>
+
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="title_activity_edicao">EdicaoActivity</string>
+
+    <!-- A PARTIR DAQUI COMEÇA A TELA DE EDIÇÕES -->
+    <string name="CursoEdicaoTitulo"></string>
+    <string name="CursoEdicaoButton">Zapros</string>
+
+    <string name="cargaHoraria">Chasy Raboty:</string>
+    <string name="vigencia">Prodolzhitel\'nost\'(Let):</string>
+
+    <!-- A PARTIR DAQUI VEM A LISTA DE CURSOS EM ESPERA -->
+    <string name="dataInicioCursoEspera">Data Nachala:</string>
+    <string name="dataValidade">Srok Deystviya:</string>
+    <string name="dataFinal">Data Okonchaniya:</string>
+
+    <!--MENSAGEM DE ERRO-->
+    <string name="voltar">Nazhmite dvazhdy, chtoby vyyti.</string>
+    <string name="erroCursoEspera">Vy ne prosili lyuboy kurs.</string>
+    <string name="erroPerfil">Oshibka dostupa profilya.</string>
+    <string name="erroLogin">Pol\'zovatel\' ili parol\'.</string>
+    <string name="erroLoginVazio">Pozhaluysta, vvedite vash login i parol\'.</string>
+    <string name="erroEdicao">Vyberite izdaniye kursa</string>
+    <string name="msgEdicaoEfeturada">Zapros uspeshno sdelal</string>
+
+    <!-- LISTA DE EDIÇÃO -->
+    <string name="inicioEdicao">Glavnaya:</string>
+    <string name="terminoEdicao">Konets:</string>
+    <string name="validadeEdicao">Srok Deystviya:</string>
+
+    <!-- FRAGMENT CURSOS ESPERA -->
+    <string name="titulo_cursos_espera">Kursy Ozhidaniya</string>
+
+    <!-- FRAGMENT CURSOS CONCLUIDO -->
+    <string name="titulo_cursos_concluido">Kursy Zavershennyy</string>
+
+    <!-- FRAGMENT CURSOS ANDAMENTO -->
+    <string name="titulo_cursos_andamento">Kursy V Khode</string>
+
+    <!-- FRAGMENT CURSOS-->
+    <string name="titulo_cursos">Kursy</string>
+
+    <!-- TELA DE IDIOMAS -->
+    <string name="titulo_idiomas">Vybor Yazyka</string>
+
+</resources>

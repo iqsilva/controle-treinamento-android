@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- TEXTO QUE NOMEIA O APLICATIVO -->
+    <string name="app_name">Azul Ausbildung</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TEXTO QUE FICA NO MENU DE 3 PONTOS -->
+    <string name="about">Auf</string>
+
+    <!-- TEXTO QUE FICA LOGO ABAIXO NA IMAGEM DA AZUL AO CLICAR NO MENU -->
+    <string name="navigation_header_cursos_name">Training Steuerungs</string>
+
+    <!-- A PARTIR DAQUI COMEÇAM OS TEXTOS ESCRITOS NO MENU PROPRIAMENTE DITO -->
+    <string name="navigation_menu_cursos">Kurse</string>
+    <string name="navigation_menu_cursos_andamento">Kurse Underway</string>
+    <string name="navigation_menu_cursos_concluido">Kurse Abgeschlossen</string>
+    <string name="navigation_menu_cursos_espera">Kurse Waiting</string>
+    <string name="navigation_menu_languages">Sprache</string>
+    <string name="navigation_menu_perfil">Profil</string>
+    <string name="navigation_menu_logout">Verlassen</string>
+
+    <!-- A PARTIR DAQUI COMEÇAM AS STRINGS DA TELA DE LOGIN -->
+    <string name="login_plainText_usuario">Benutzer</string>
+    <string name="login_passwordText_senha">Kennwort</string>
+    <string name="login_button_login">Eingeben</string>
+    <string name="login_plainText_help">Bei Fragen kontaktieren Sie: controle.treinamento@azul.com.br</string>
+
+    <!-- A PARTIR DAQUI COMEÇAM AS STRINGS DA TELA DE Perfil -->
+    <string name="perfil_sucess">Modifizierte erfolg</string>
+    <string name="perfil_errornull">Felder dürfen nicht leer sein</string>
+    <string name="perfil_erroremail">Feld muss mit Firma E-Mail ausgefüllt werden</string>
+    <string name="perfil_errorsenha">Die Passwort-Felder müssen gleich sein</string>
+    <string name="perfil_button">Aktualisierung</string>
+    <string name="perfil_email">Email</string>
+    <string name="perfil_senha">Kennwort</string>
+    <string name="perfil_senhaconfirma">Bestätigen</string>
+    <string name="perfil_Registro">Rekord</string>
+    <string name="perfil_cargo">Büro</string>
+    <string name="perfil_usuario">Benutzer</string>
+    <string name="perfil_nome">Mitarbeiterprofil</string>
+
+    <!-- TELA DE SOBRE -->
+    <string name="hello_blank_fragment">Was ist die Anwendung?</string>
+    <string name="hello_blank_fragment2">Entwickelt, um die Kontrolle über die Schulung der Mitarbeiter der Firma Blue Airline zu verwalten, die Wartung Flugzeuge Vornähen</string>
+    <string name="hello_blank_fragment3">Hilfe</string>
+    <string name="hello_blank_fragment4">Unten finden Sie Informationen über die Arbeit der Anwendung finden.</string>
+    <string name="hello_blank_fragment5">Wenn Sie nicht gefunden haben, was ich brauchte, kontaktieren Sie uns:</string>
+    <string name="hello_blank_fragment6">Telefon: (19)3320-1234</string>
+    <string name="hello_blank_fragment7">E-mail: controle.treinamento@azul.com.br</string>
+
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="title_activity_edicao">EdicaoActivity</string>
+
+    <!-- A PARTIR DAQUI COMEÇA A TELA DE EDIÇÕES -->
+    <string name="CursoEdicaoTitulo"></string>
+    <string name="CursoEdicaoButton">Anforderung</string>
+
+    <string name="cargaHoraria">Öffnungszeiten:</string>
+    <string name="vigencia">Dauer(Jahre):</string>
+
+    <!-- A PARTIR DAQUI VEM A LISTA DE CURSOS EM ESPERA -->
+    <string name="dataInicioCursoEspera">Startdatum:</string>
+    <string name="dataValidade">Verfallsdatum:</string>
+    <string name="dataFinal">Enddatum:</string>
+
+    <!--MENSAGEM DE ERRO-->
+    <string name="voltar">Drücken Sie zweimal, um zu beenden.</string>
+    <string name="erroCursoEspera">Sie haben nicht für jeden Kurs fragen.</string>
+    <string name="erroPerfil">Fehlerprofil zugreifen.</string>
+    <string name="erroLogin">Benutzer oder Passwort.</string>
+    <string name="erroLoginVazio">Bitte geben Sie Ihren Benutzernamen und Ihr Passwort ein.</string>
+    <string name="erroEdicao">Wählen Sie eine Ausgabe des Kurses</string>
+    <string name="msgEdicaoEfeturada">Antrag erfolgreich gemacht</string>
+
+    <!-- LISTA DE EDIÇÃO -->
+    <string name="inicioEdicao">Zuerst:</string>
+    <string name="terminoEdicao">Ende:</string>
+    <string name="validadeEdicao">Gültigkeit:</string>
+
+    <!-- FRAGMENT CURSOS ESPERA -->
+    <string name="titulo_cursos_espera">Kurse Waiting</string>
+
+    <!-- FRAGMENT CURSOS CONCLUIDO -->
+    <string name="titulo_cursos_concluido">Kurse Abgeschlossen</string>
+
+    <!-- FRAGMENT CURSOS ANDAMENTO -->
+    <string name="titulo_cursos_andamento">Kurse Underway</string>
+
+    <!-- FRAGMENT CURSOS-->
+    <string name="titulo_cursos">Kurse</string>
+
+    <!-- TELA DE IDIOMAS -->
+    <string name="titulo_idiomas">Wählen Sie Sprache</string>
+
+</resources>

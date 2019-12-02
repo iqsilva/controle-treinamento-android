@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pi.fatec.azulapplication.IdiomaActivity">
+
+    <TextView
+        android:id="@+id/txtaba"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/titulo_idiomas"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/btnBR"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_alignStart="@+id/btnES"
+        android:layout_below="@+id/txtaba"
+        android:layout_marginTop="22dp"
+        android:onClick="setLocalePT"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/brasil"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="40dp" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/eua"
+        android:id="@+id/btnEN"
+        android:scaleType="fitCenter"
+        android:onClick="setLocaleEN"
+        tools:layout_editor_absoluteY="135dp"
+        tools:layout_editor_absoluteX="16dp"
+        android:layout_alignTop="@+id/btnBR"
+        android:layout_alignStart="@+id/btnFR" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/franca"
+        android:id="@+id/btnFR"
+        android:scaleType="fitCenter"
+        android:onClick="setLocaleFR"
+        tools:layout_editor_absoluteY="40dp"
+        tools:layout_editor_absoluteX="131dp"
+        android:layout_below="@+id/btnEN"
+        android:layout_toEndOf="@+id/btnSair"
+        android:layout_marginTop="17dp" />
+
+    <ImageButton
+        android:id="@+id/btnAL"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_alignStart="@+id/btnES"
+        android:layout_alignTop="@+id/btnRU"
+        android:onClick="setLocaleDE"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/alemanha"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="40dp" />
+
+    <ImageButton
+        android:id="@+id/btnRU"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_alignStart="@+id/btnFR"
+        android:layout_below="@+id/btnES"
+        android:layout_marginTop="15dp"
+        android:onClick="setLocaleRU"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/russia"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="40dp" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/espanha"
+        android:id="@+id/btnES"
+        android:scaleType="fitCenter"
+        android:onClick="setLocaleES"
+        tools:layout_editor_absoluteY="40dp"
+        tools:layout_editor_absoluteX="245dp"
+        android:layout_alignTop="@+id/btnFR"
+        android:layout_toStartOf="@+id/btnSair" />
+
+    <Button
+        android:text="@string/navigation_menu_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSair"
+        android:onClick="sair"
+        tools:layout_editor_absoluteY="447dp"
+        tools:layout_editor_absoluteX="280dp"
+        android:textColor="@android:color/background_light"
+        android:theme="@style/MyButton"
+        android:layout_marginBottom="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

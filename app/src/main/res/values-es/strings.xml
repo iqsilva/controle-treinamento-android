@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- TEXTO QUE NOMEIA O APLICATIVO -->
+    <string name="app_name">Azul Entrenamientos</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TEXTO QUE FICA NO MENU DE 3 PONTOS -->
+    <string name="about">Ayuda</string>
+
+    <!-- TEXTO QUE FICA LOGO ABAIXO NA IMAGEM DA AZUL AO CLICAR NO MENU -->
+    <string name="navigation_header_cursos_name">Control de Entrenamientos</string>
+
+    <!-- A PARTIR DAQUI COMEÇAM OS TEXTOS ESCRITOS NO MENU PROPRIAMENTE DITO -->
+    <string name="navigation_menu_cursos">Cursos Disponibles</string>
+    <string name="navigation_menu_cursos_andamento">Cursos En Progreso</string>
+    <string name="navigation_menu_cursos_concluido">Cursos Concluidos</string>
+    <string name="navigation_menu_cursos_espera">Cursos En Espera</string>
+    <string name="navigation_menu_languages">Idioma</string>
+    <string name="navigation_menu_perfil">Perfil</string>
+    <string name="navigation_menu_logout">Salir</string>
+
+    <!-- A PARTIR DAQUI COMEÇAM AS STRINGS DA TELA DE LOGIN -->
+    <string name="login_plainText_usuario">Usuario</string>
+    <string name="login_passwordText_senha">Contraseña</string>
+    <string name="login_button_login">Entrar</string>
+    <string name="login_plainText_help">En caso de dudas entrar en contacto: controle.treinamento@azul.com.br</string>
+
+    <!-- A PARTIR DAQUI COMEÇAM AS STRINGS DA TELA DE Perfil -->
+    <string name="perfil_sucess">Modificado con éxito</string>
+    <string name="perfil_errornull">Los campos no deben estar vacíos</string>
+    <string name="perfil_erroremail">El campo debe llenarse con el correo electrónico de la empresa</string>
+    <string name="perfil_errorsenha">Los campos de contraseña deben ser iguales</string>
+    <string name="perfil_button">Actualizar</string>
+    <string name="perfil_email">Email</string>
+    <string name="perfil_senha">Contraseña</string>
+    <string name="perfil_senhaconfirma">Confirmar</string>
+    <string name="perfil_Registro">Registro</string>
+    <string name="perfil_cargo">Cargo</string>
+    <string name="perfil_usuario">Usuario</string>
+    <string name="perfil_nome">Perfil del Empleado</string>
+
+    <!-- TELA DE SOBRE -->
+    <string name="hello_blank_fragment">¿Qué es la aplicación?</string>
+    <string name="hello_blank_fragment2">Desarrollado para gestionar el control de entrenamientos de los empleados de la empresa Azul Líneas Aéreas que trabajan realizando el mantenimiento de aeronaves</string>
+    <string name="hello_blank_fragment3">Ayuda</string>
+    <string name="hello_blank_fragment4">A continuación encontrará información sobre el funcionamiento de la aplicación.</string>
+    <string name="hello_blank_fragment5">Si no ha encontrado lo que necesitaba, póngase en contacto con nosotros:</string>
+    <string name="hello_blank_fragment6">Teléfono: (19)3320-1234</string>
+    <string name="hello_blank_fragment7">E-mail: controle.treinamento@azul.com.br</string>
+
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="title_activity_edicao">EdicaoActivity</string>
+
+    <!-- A PARTIR DAQUI COMEÇA A TELA DE EDIÇÕES -->
+    <string name="CursoEdicaoTitulo"></string>
+    <string name="CursoEdicaoButton">Solicitar</string>
+
+    <string name="cargaHoraria">Carga Horaria:</string>
+    <string name="vigencia">Vigencia(Años):</string>
+
+    <!-- A PARTIR DAQUI VEM A LISTA DE CURSOS EM ESPERA -->
+    <string name="dataInicioCursoEspera">Fecha de Inicio:</string>
+    <string name="dataValidade">Fecha de Validez:</string>
+    <string name="dataFinal">Fecha Final:</string>
+
+    <!--MENSAGEM DE ERRO-->
+    <string name="voltar">Pulse dos veces para salir.</string>
+    <string name="erroCursoEspera">No ha solicitado ningún curso.</string>
+    <string name="erroPerfil">Error al acceder al perfil.</string>
+    <string name="erroLogin">Usuario o contraseña incorrectos.</string>
+    <string name="erroLoginVazio">Por favor introduzca su usuario y contraseña.</string>
+    <string name="erroEdicao">Seleccione una edición del curso</string>
+    <string name="msgEdicaoEfeturada">Solicitud hecha con éxito</string>
+
+    <!-- LISTA DE EDIÇÃO -->
+    <string name="inicioEdicao">Inicio:</string>
+    <string name="terminoEdicao">Terminación:</string>
+    <string name="validadeEdicao">Validez:</string>
+
+    <!-- FRAGMENT CURSOS ESPERA -->
+    <string name="titulo_cursos_espera">Cursos En Espera</string>
+
+    <!-- FRAGMENT CURSOS CONCLUIDO -->
+    <string name="titulo_cursos_concluido">Cursos Concluidos</string>
+
+    <!-- FRAGMENT CURSOS ANDAMENTO -->
+    <string name="titulo_cursos_andamento">Cursos En Progreso</string>
+
+    <!-- FRAGMENT CURSOS-->
+    <string name="titulo_cursos">Cursos Disponibles</string>
+
+    <!-- TELA DE IDIOMAS -->
+    <string name="titulo_idiomas">Seleccione el Idioma</string>
+
+</resources>
